@@ -1,6 +1,6 @@
 // git init -> Khởi tạo git repository ở máy tính
 
-// git remote add origin <URL của remote repository> -> Thêm địa chỉ của kho code trên github
+// git remote add <tên remote> <URL của remote repository> -> Thêm địa chỉ của kho code trên github
 
 // git status -> Kiểm tra trạng thái local repo
 
@@ -13,5 +13,6 @@
 //   git config --global user.name "Your Name"
 
 int main () {
-    printf("Hello world !!")
+    printf("Hello world !!");
+    printf("Liu liu");
 }
