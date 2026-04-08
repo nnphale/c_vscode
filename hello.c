@@ -8,9 +8,10 @@
 
 // git commit -m "<Mô tả những gì mình làm>" -> "Đẩy" các file từ STAGING AREA vào LOCAL REPO
 
+// Khai báo danh tính
 //   git config --global user.email "you@example.com"
 //   git config --global user.name "Your Name"
 
 int main () {
-    printf("Hello world !")
+    printf("Hello world !!")
 }
