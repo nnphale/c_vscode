@@ -33,6 +33,10 @@
 // - Fast forward (Merge)
 // - Rebase
 
+// git pull = git fetch + git merge
+// - git fetch: Tải thông tin về
+// - git merge: Gộp code từ remote repo vào code local repo
+
 #include <stdio.h>
 
 int main () {
