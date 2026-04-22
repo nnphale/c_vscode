@@ -28,6 +28,11 @@
 // Pull (Kéo) code từ remote repo về máy
 // git pull <Tên remote repo> <Tên nhánh>
 
+// ================================================
+// Có 2 cơ chế pull chính 
+// - Fast forward (Merge)
+// - Rebase
+
 #include <stdio.h>
 
 int main () {
