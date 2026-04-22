@@ -25,17 +25,21 @@
 // Lấy <URL của remote repository> của remote repo (thường là HTTPS)
 // git clone <URL của remote repository>
 
+// ================================================
+
 // Pull (Kéo) code từ remote repo về máy
 // git pull <Tên remote repo> <Tên nhánh>
 
-// ================================================
+// Trên Windows, khi cài đặt git Installer (trình cài đặt) sẽ hỏi về cơ chế pull mặc định
 // Có 2 cơ chế pull chính 
-// - Fast forward (Merge)
-// - Rebase
+// - Fast forward (Merge) -> Cơ chế này sẽ GỘP THẲNG nhánh mới vào nhánh hiện tại
+// - Rebase -> Cơ chế này sẽ gộp code ở hai nhánh, sau đó TẠO MỘT COMMIT MỚI. 
 
-// git pull = git fetch + git merge
+// git pull = git fetch + git merge (nếu cài đặt cơ chế pull mặc định là Fast-forward)
 // - git fetch: Tải thông tin về
 // - git merge: Gộp code từ remote repo vào code local repo
+
+// git pull --rebase = git fetch + git rebase
 
 #include <stdio.h>
 
