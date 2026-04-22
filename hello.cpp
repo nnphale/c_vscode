@@ -12,6 +12,8 @@
 //   git config --global user.email "you@example.com"
 //   git config --global user.name "Your Name"
 
+#include <stdio.h>
+
 int main () {
     printf("Hello world !!");
     printf("Liu liu");
