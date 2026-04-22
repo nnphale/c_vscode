@@ -34,4 +34,5 @@ int main () {
     printf("Hello world !!");
     printf("Liu liu");
     printf("Hello mình là Lé Ô");
+    printf("Minh la Bunnie. Rat vui duoc lam quen a.");
 }
